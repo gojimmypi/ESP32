@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ESP32-JTAG-VisualGDB", "ESP32-JTAG-VisualGDB\ESP32-JTAG-VisualGDB.vcxproj", "{EA479A89-0C87-4BBD-B63D-97F69EE45865}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|VisualGDB = Debug|VisualGDB
+		Release|VisualGDB = Release|VisualGDB
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA479A89-0C87-4BBD-B63D-97F69EE45865}.Debug|VisualGDB.ActiveCfg = Debug|VisualGDB
+		{EA479A89-0C87-4BBD-B63D-97F69EE45865}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
+		{EA479A89-0C87-4BBD-B63D-97F69EE45865}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
+		{EA479A89-0C87-4BBD-B63D-97F69EE45865}.Release|VisualGDB.Build.0 = Release|VisualGDB
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

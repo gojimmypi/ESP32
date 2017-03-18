@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<EmbeddedProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ToolchainID>com.visualgdb.xtensa-esp32-elf</ToolchainID>
+  <BspID>com.sysprogs.esp32.core</BspID>
+  <BspVersion>1.0</BspVersion>
+  <McuID>ESP32</McuID>
+  <MCUDefinitionFile>registers.xml</MCUDefinitionFile>
+  <MCUProperties>
+    <Entries>
+      <KeyValue>
+        <Key>com.sysprogs.esp32.partition_table_file</Key>
+        <Value>$$SYS:BSP_ROOT$$/sysprogs/extras/partitions_singleapp.bin</Value>
+      </KeyValue>
+      <KeyValue>
+        <Key>com.sysprogs.esp32.bootloader_file</Key>
+        <Value>$$SYS:BSP_ROOT$$/sysprogs/extras/bootloader.bin</Value>
+      </KeyValue>
+      <KeyValue>
+        <Key>com.sysprogs.esp32.app_offset</Key>
+        <Value>0x10000</Value>
+      </KeyValue>
+    </Entries>
+  </MCUProperties>
+  <BSPSourceFolderName>Device-specific files</BSPSourceFolderName>
+  <MCUMakFile>esp32.mak</MCUMakFile>
+  <ReferencedFrameworks>
+    <string>com.sysprogs.esp32.idf.core</string>
+    <string>com.sysprogs.esp32.idf.expat</string>
+    <string>com.sysprogs.esp32.idf.nvs_flash</string>
+    <string>com.sysprogs.esp32.idf.lwip</string>
+    <string>com.sysprogs.esp32.idf.newlib</string>
+    <string>com.sysprogs.esp32.idf.wpa_supplicant</string>
+    <string>com.sysprogs.esp32.idf.app_update</string>
+    <string>com.sysprogs.esp32.idf.driver</string>
+    <string>com.sysprogs.esp32.idf.ethernet</string>
+    <string>com.sysprogs.esp32.idf.freertos</string>
+    <string>com.sysprogs.esp32.idf.json</string>
+    <string>com.sysprogs.esp32.idf.log</string>
+    <string>com.sysprogs.esp32.idf.mbedtls</string>
+    <string>com.sysprogs.esp32.idf.spi_flash</string>
+    <string>com.sysprogs.esp32.idf.tcpip_adapter</string>
+    <string>com.sysprogs.esp32.idf.ulp</string>
+    <string>com.sysprogs.esp32.idf.vfs</string>
+  </ReferencedFrameworks>
+  <FrameworkProperties>
+    <Entries />
+  </FrameworkProperties>
+  <TestFrameworkProperties>
+    <Entries />
+  </TestFrameworkProperties>
+</EmbeddedProfile>

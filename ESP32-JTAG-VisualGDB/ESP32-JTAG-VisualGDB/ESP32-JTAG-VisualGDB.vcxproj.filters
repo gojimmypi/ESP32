@@ -1,0 +1,2513 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{f81201fd-ecec-49f9-b8b3-a61fd2f4aa9a}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{411012f8-edc9-439a-97b4-d3348efa618f}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource files">
+      <UniqueIdentifier>{10e24612-e8e5-4da3-b4e7-3e8a75cfed7d}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="VisualGDB settings">
+      <UniqueIdentifier>{11d7864b-4919-4ec7-80e1-28a1cc4c2c6f}</UniqueIdentifier>
+      <Extensions>*.vgdbsettings</Extensions>
+    </Filter>
+    <Filter Include="Source files\Device-specific files">
+      <UniqueIdentifier>{bab6b12e-b67b-4699-8d32-5a29d533f0cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Device-specific files">
+      <UniqueIdentifier>{66f4487a-e28e-4d4a-9226-dbbdae1064bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Device-specific files\Core">
+      <UniqueIdentifier>{e95831a9-ace5-4606-9acd-a80c4ff7386f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Device-specific files\Core">
+      <UniqueIdentifier>{4363d8cf-27df-48de-a791-a1d7f4d2dd44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Device-specific files\Expat">
+      <UniqueIdentifier>{b29d4e61-521b-40bc-aaa8-53c9a1e1d931}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Device-specific files\Expat">
+      <UniqueIdentifier>{fc404a68-96f4-428b-888d-c83088254e05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Device-specific files\NVS FLASH">
+      <UniqueIdentifier>{34f8fb9d-1dd2-41eb-a93e-c38f7310182c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Device-specific files\NVS FLASH">
+      <UniqueIdentifier>{753d5363-1867-46c8-ab70-375e6f920632}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Device-specific files\lwIP">
+      <UniqueIdentifier>{02043a0f-c94a-4d4f-a7c0-cd518a8f239e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Device-specific files\lwIP">
+      <UniqueIdentifier>{b86cccb2-a348-46ce-9456-25b372a3fc76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Device-specific files\Newlib">
+      <UniqueIdentifier>{121be0ba-da16-41a8-bfbd-b767b0aad78e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Device-specific files\Newlib">
+      <UniqueIdentifier>{3a2b64dc-b967-4927-91ac-41ade99ed50c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Device-specific files\mbed TLS">
+      <UniqueIdentifier>{8d82dbad-b38a-443e-9b0b-ce3f0bbe76fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Device-specific files\mbed TLS">
+      <UniqueIdentifier>{665fe3f4-8047-4c98-a511-9fb16bf68d94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Device-specific files\WPA">
+      <UniqueIdentifier>{a6cfcf5f-4dfb-4ead-92d1-4b80a2efdf1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Device-specific files\WPA">
+      <UniqueIdentifier>{6f2ab25d-e82d-42da-a722-66403ef8ddd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Device-specific files\App Update Support">
+      <UniqueIdentifier>{80bc3b9b-13ee-476d-a90e-ec842fc51a62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Device-specific files\App Update Support">
+      <UniqueIdentifier>{970c1ec6-43f2-4b3c-83c3-c7ea64f76a6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Device-specific files\Drivers">
+      <UniqueIdentifier>{c5f4ea99-8daa-4c0b-bd50-a5025ea7fbbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Device-specific files\Drivers">
+      <UniqueIdentifier>{b964312c-e123-425e-ac76-78b015fe5ab1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Device-specific files\Ethernet">
+      <UniqueIdentifier>{3a707bef-c7ba-4d08-8c97-893195ee6796}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Device-specific files\Ethernet">
+      <UniqueIdentifier>{0990aa2c-fb31-4529-bb43-13117f492a1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Device-specific files\FreeRTOS">
+      <UniqueIdentifier>{7bbff75b-53fa-4026-aab1-5087cc631b03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Device-specific files\FreeRTOS">
+      <UniqueIdentifier>{c6e4731b-3040-4f60-9913-8f852620bb6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Device-specific files\JSON">
+      <UniqueIdentifier>{ece8875b-dbf8-459a-afda-fa1fbb4477f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Device-specific files\JSON">
+      <UniqueIdentifier>{9717fae7-8499-43a8-98c4-8cdda3dc4c29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Device-specific files\Logging Support">
+      <UniqueIdentifier>{bdb7376c-940f-450e-bc40-d7525baa066a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Device-specific files\Logging Support">
+      <UniqueIdentifier>{994a02e8-7594-4ea4-a210-78f886a26966}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Device-specific files\SPI FLASH">
+      <UniqueIdentifier>{350e4fa9-e531-4be1-96c7-7a8f165439ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Device-specific files\SPI FLASH">
+      <UniqueIdentifier>{85b297e9-6513-4407-8e90-7fb947f40ff1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Device-specific files\TCP/IP Adapter">
+      <UniqueIdentifier>{4c1d567c-cea1-423a-8919-6682f24af59b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Device-specific files\TCP/IP Adapter">
+      <UniqueIdentifier>{c90a7c64-0166-4eb3-93ba-3cc810bffc1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Device-specific files\ULP Support">
+      <UniqueIdentifier>{6d3f391b-02da-44b4-b162-13b5d4bdb7c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Device-specific files\ULP Support">
+      <UniqueIdentifier>{179c4524-52f1-4b4e-aa0d-3393a9267abe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Device-specific files\VFS Support">
+      <UniqueIdentifier>{19bda6ce-5c4a-49a9-b6ee-7d1768611b2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Device-specific files\VFS Support">
+      <UniqueIdentifier>{c3c6fbd0-21fa-48f9-ab94-ba63d2e456e8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ESP32-JTAG-VisualGDB.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\abi.cpp">
+      <Filter>Source files\Device-specific files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\brownout.c">
+      <Filter>Source files\Device-specific files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\cpu_freq.c">
+      <Filter>Source files\Device-specific files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\cpu_start.c">
+      <Filter>Source files\Device-specific files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\cpu_util.c">
+      <Filter>Source files\Device-specific files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\crosscore_int.c">
+      <Filter>Source files\Device-specific files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\deep_sleep.c">
+      <Filter>Source files\Device-specific files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\event_default_handlers.c">
+      <Filter>Source files\Device-specific files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\event_loop.c">
+      <Filter>Source files\Device-specific files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\freertos_hooks.c">
+      <Filter>Source files\Device-specific files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\gdbstub.c">
+      <Filter>Source files\Device-specific files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\heap_alloc_caps.c">
+      <Filter>Source files\Device-specific files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\hw_random.c">
+      <Filter>Source files\Device-specific files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\intr_alloc.c">
+      <Filter>Source files\Device-specific files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\int_wdt.c">
+      <Filter>Source files\Device-specific files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\ipc.c">
+      <Filter>Source files\Device-specific files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\lib_printf.c">
+      <Filter>Source files\Device-specific files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\panic.c">
+      <Filter>Source files\Device-specific files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\phy_init.c">
+      <Filter>Source files\Device-specific files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\system_api.c">
+      <Filter>Source files\Device-specific files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\task_wdt.c">
+      <Filter>Source files\Device-specific files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\hwcrypto\esp_aes.c">
+      <Filter>Source files\Device-specific files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\hwcrypto\sha.c">
+      <Filter>Source files\Device-specific files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\expat\library\xmlparse.c">
+      <Filter>Source files\Device-specific files\Expat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\expat\library\xmlrole.c">
+      <Filter>Source files\Device-specific files\Expat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\expat\library\xmltok.c">
+      <Filter>Source files\Device-specific files\Expat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\expat\library\xmltok_impl.c">
+      <Filter>Source files\Device-specific files\Expat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\expat\library\xmltok_ns.c">
+      <Filter>Source files\Device-specific files\Expat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\expat\port\chardata.c">
+      <Filter>Source files\Device-specific files\Expat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\expat\port\expat_element.c">
+      <Filter>Source files\Device-specific files\Expat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\expat\port\minicheck.c">
+      <Filter>Source files\Device-specific files\Expat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\nvs_flash\src\nvs_api.cpp">
+      <Filter>Source files\Device-specific files\NVS FLASH</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\nvs_flash\src\nvs_item_hash_list.cpp">
+      <Filter>Source files\Device-specific files\NVS FLASH</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\nvs_flash\src\nvs_page.cpp">
+      <Filter>Source files\Device-specific files\NVS FLASH</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\nvs_flash\src\nvs_pagemanager.cpp">
+      <Filter>Source files\Device-specific files\NVS FLASH</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\nvs_flash\src\nvs_storage.cpp">
+      <Filter>Source files\Device-specific files\NVS FLASH</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\nvs_flash\src\nvs_types.cpp">
+      <Filter>Source files\Device-specific files\NVS FLASH</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\api\api_lib.c">
+      <Filter>Source files\Device-specific files\lwIP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\api\api_msg.c">
+      <Filter>Source files\Device-specific files\lwIP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\api\err.c">
+      <Filter>Source files\Device-specific files\lwIP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\api\lwip_debug.c">
+      <Filter>Source files\Device-specific files\lwIP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\api\netbuf.c">
+      <Filter>Source files\Device-specific files\lwIP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\api\netdb.c">
+      <Filter>Source files\Device-specific files\lwIP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\api\netifapi.c">
+      <Filter>Source files\Device-specific files\lwIP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\api\pppapi.c">
+      <Filter>Source files\Device-specific files\lwIP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\api\sockets.c">
+      <Filter>Source files\Device-specific files\lwIP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\api\tcpip.c">
+      <Filter>Source files\Device-specific files\lwIP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\apps\dhcpserver.c">
+      <Filter>Source files\Device-specific files\lwIP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\apps\sntp\sntp.c">
+      <Filter>Source files\Device-specific files\lwIP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\core\def.c">
+      <Filter>Source files\Device-specific files\lwIP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\core\dns.c">
+      <Filter>Source files\Device-specific files\lwIP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\core\inet_chksum.c">
+      <Filter>Source files\Device-specific files\lwIP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\core\init.c">
+      <Filter>Source files\Device-specific files\lwIP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\core\ip.c">
+      <Filter>Source files\Device-specific files\lwIP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\core\mem.c">
+      <Filter>Source files\Device-specific files\lwIP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\core\memp.c">
+      <Filter>Source files\Device-specific files\lwIP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\core\netif.c">
+      <Filter>Source files\Device-specific files\lwIP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\core\pbuf.c">
+      <Filter>Source files\Device-specific files\lwIP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\core\raw.c">
+      <Filter>Source files\Device-specific files\lwIP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\core\stats.c">
+      <Filter>Source files\Device-specific files\lwIP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\core\sys.c">
+      <Filter>Source files\Device-specific files\lwIP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\core\tcp.c">
+      <Filter>Source files\Device-specific files\lwIP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\core\tcp_in.c">
+      <Filter>Source files\Device-specific files\lwIP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\core\tcp_out.c">
+      <Filter>Source files\Device-specific files\lwIP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\core\lwip_timers.c">
+      <Filter>Source files\Device-specific files\lwIP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\core\udp.c">
+      <Filter>Source files\Device-specific files\lwIP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\core\ipv4\autoip.c">
+      <Filter>Source files\Device-specific files\lwIP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\core\ipv4\dhcp.c">
+      <Filter>Source files\Device-specific files\lwIP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\core\ipv4\icmp.c">
+      <Filter>Source files\Device-specific files\lwIP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\core\ipv4\igmp.c">
+      <Filter>Source files\Device-specific files\lwIP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\core\ipv4\ip4.c">
+      <Filter>Source files\Device-specific files\lwIP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\core\ipv4\ip4_addr.c">
+      <Filter>Source files\Device-specific files\lwIP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\core\ipv4\ip_frag.c">
+      <Filter>Source files\Device-specific files\lwIP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\core\ipv6\dhcp6.c">
+      <Filter>Source files\Device-specific files\lwIP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\core\ipv6\ethip6.c">
+      <Filter>Source files\Device-specific files\lwIP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\core\ipv6\icmp6.c">
+      <Filter>Source files\Device-specific files\lwIP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\core\ipv6\inet6.c">
+      <Filter>Source files\Device-specific files\lwIP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\core\ipv6\ip6.c">
+      <Filter>Source files\Device-specific files\lwIP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\core\ipv6\ip6_addr.c">
+      <Filter>Source files\Device-specific files\lwIP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\core\ipv6\ip6_frag.c">
+      <Filter>Source files\Device-specific files\lwIP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\core\ipv6\mld6.c">
+      <Filter>Source files\Device-specific files\lwIP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\core\ipv6\nd6.c">
+      <Filter>Source files\Device-specific files\lwIP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\netif\etharp.c">
+      <Filter>Source files\Device-specific files\lwIP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\netif\ethernet.c">
+      <Filter>Source files\Device-specific files\lwIP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\netif\lowpan6.c">
+      <Filter>Source files\Device-specific files\lwIP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\netif\slipif.c">
+      <Filter>Source files\Device-specific files\lwIP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\port\freertos\sys_arch.c">
+      <Filter>Source files\Device-specific files\lwIP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\port\netif\ethernetif.c">
+      <Filter>Source files\Device-specific files\lwIP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\port\netif\wlanif.c">
+      <Filter>Source files\Device-specific files\lwIP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\locks.c">
+      <Filter>Source files\Device-specific files\Newlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\reent_init.c">
+      <Filter>Source files\Device-specific files\Newlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\syscalls.c">
+      <Filter>Source files\Device-specific files\Newlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\syscall_table.c">
+      <Filter>Source files\Device-specific files\Newlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\time.c">
+      <Filter>Source files\Device-specific files\Newlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\library\aes.c">
+      <Filter>Source files\Device-specific files\mbed TLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\library\aesni.c">
+      <Filter>Source files\Device-specific files\mbed TLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\library\arc4.c">
+      <Filter>Source files\Device-specific files\mbed TLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\library\asn1parse.c">
+      <Filter>Source files\Device-specific files\mbed TLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\library\asn1write.c">
+      <Filter>Source files\Device-specific files\mbed TLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\library\base64.c">
+      <Filter>Source files\Device-specific files\mbed TLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\library\bignum.c">
+      <Filter>Source files\Device-specific files\mbed TLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\library\blowfish.c">
+      <Filter>Source files\Device-specific files\mbed TLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\library\camellia.c">
+      <Filter>Source files\Device-specific files\mbed TLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\library\ccm.c">
+      <Filter>Source files\Device-specific files\mbed TLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\library\certs.c">
+      <Filter>Source files\Device-specific files\mbed TLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\library\cipher.c">
+      <Filter>Source files\Device-specific files\mbed TLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\library\cipher_wrap.c">
+      <Filter>Source files\Device-specific files\mbed TLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\library\ctr_drbg.c">
+      <Filter>Source files\Device-specific files\mbed TLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\library\debug.c">
+      <Filter>Source files\Device-specific files\mbed TLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\library\des.c">
+      <Filter>Source files\Device-specific files\mbed TLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\library\dhm.c">
+      <Filter>Source files\Device-specific files\mbed TLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\library\ecdh.c">
+      <Filter>Source files\Device-specific files\mbed TLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\library\ecdsa.c">
+      <Filter>Source files\Device-specific files\mbed TLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\library\ecjpake.c">
+      <Filter>Source files\Device-specific files\mbed TLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\library\ecp.c">
+      <Filter>Source files\Device-specific files\mbed TLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\library\ecp_curves.c">
+      <Filter>Source files\Device-specific files\mbed TLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\library\entropy.c">
+      <Filter>Source files\Device-specific files\mbed TLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\library\entropy_poll.c">
+      <Filter>Source files\Device-specific files\mbed TLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\library\error.c">
+      <Filter>Source files\Device-specific files\mbed TLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\library\gcm.c">
+      <Filter>Source files\Device-specific files\mbed TLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\library\havege.c">
+      <Filter>Source files\Device-specific files\mbed TLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\library\hmac_drbg.c">
+      <Filter>Source files\Device-specific files\mbed TLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\library\md.c">
+      <Filter>Source files\Device-specific files\mbed TLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\library\md2.c">
+      <Filter>Source files\Device-specific files\mbed TLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\library\md4.c">
+      <Filter>Source files\Device-specific files\mbed TLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\library\md5.c">
+      <Filter>Source files\Device-specific files\mbed TLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\library\md_wrap.c">
+      <Filter>Source files\Device-specific files\mbed TLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\library\memory_buffer_alloc.c">
+      <Filter>Source files\Device-specific files\mbed TLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\library\oid.c">
+      <Filter>Source files\Device-specific files\mbed TLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\library\padlock.c">
+      <Filter>Source files\Device-specific files\mbed TLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\library\pem.c">
+      <Filter>Source files\Device-specific files\mbed TLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\library\pk.c">
+      <Filter>Source files\Device-specific files\mbed TLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\library\pkcs11.c">
+      <Filter>Source files\Device-specific files\mbed TLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\library\pkcs12.c">
+      <Filter>Source files\Device-specific files\mbed TLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\library\pkcs5.c">
+      <Filter>Source files\Device-specific files\mbed TLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\library\pkparse.c">
+      <Filter>Source files\Device-specific files\mbed TLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\library\pkwrite.c">
+      <Filter>Source files\Device-specific files\mbed TLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\library\pk_wrap.c">
+      <Filter>Source files\Device-specific files\mbed TLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\library\platform.c">
+      <Filter>Source files\Device-specific files\mbed TLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\library\ripemd160.c">
+      <Filter>Source files\Device-specific files\mbed TLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\library\rsa.c">
+      <Filter>Source files\Device-specific files\mbed TLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\library\sha1.c">
+      <Filter>Source files\Device-specific files\mbed TLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\library\sha256.c">
+      <Filter>Source files\Device-specific files\mbed TLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\library\sha512.c">
+      <Filter>Source files\Device-specific files\mbed TLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\library\ssl_cache.c">
+      <Filter>Source files\Device-specific files\mbed TLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\library\ssl_ciphersuites.c">
+      <Filter>Source files\Device-specific files\mbed TLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\library\ssl_cli.c">
+      <Filter>Source files\Device-specific files\mbed TLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\library\ssl_cookie.c">
+      <Filter>Source files\Device-specific files\mbed TLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\library\ssl_srv.c">
+      <Filter>Source files\Device-specific files\mbed TLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\library\ssl_ticket.c">
+      <Filter>Source files\Device-specific files\mbed TLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\library\ssl_tls.c">
+      <Filter>Source files\Device-specific files\mbed TLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\library\threading.c">
+      <Filter>Source files\Device-specific files\mbed TLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\library\timing.c">
+      <Filter>Source files\Device-specific files\mbed TLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\library\version.c">
+      <Filter>Source files\Device-specific files\mbed TLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\library\version_features.c">
+      <Filter>Source files\Device-specific files\mbed TLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\library\x509.c">
+      <Filter>Source files\Device-specific files\mbed TLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\library\x509write_crt.c">
+      <Filter>Source files\Device-specific files\mbed TLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\library\x509write_csr.c">
+      <Filter>Source files\Device-specific files\mbed TLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\library\x509_create.c">
+      <Filter>Source files\Device-specific files\mbed TLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\library\x509_crl.c">
+      <Filter>Source files\Device-specific files\mbed TLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\library\x509_crt.c">
+      <Filter>Source files\Device-specific files\mbed TLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\library\x509_csr.c">
+      <Filter>Source files\Device-specific files\mbed TLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\library\xtea.c">
+      <Filter>Source files\Device-specific files\mbed TLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\port\esp_bignum.c">
+      <Filter>Source files\Device-specific files\mbed TLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\port\esp_hardware.c">
+      <Filter>Source files\Device-specific files\mbed TLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\port\esp_sha1.c">
+      <Filter>Source files\Device-specific files\mbed TLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\port\esp_sha256.c">
+      <Filter>Source files\Device-specific files\mbed TLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\port\esp_sha512.c">
+      <Filter>Source files\Device-specific files\mbed TLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\port\net.c">
+      <Filter>Source files\Device-specific files\mbed TLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\port\os_xtensa.c">
+      <Filter>Source files\Device-specific files\WPA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\src\crypto\aes-cbc.c">
+      <Filter>Source files\Device-specific files\WPA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\src\crypto\aes-internal-dec.c">
+      <Filter>Source files\Device-specific files\WPA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\src\crypto\aes-internal-enc.c">
+      <Filter>Source files\Device-specific files\WPA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\src\crypto\aes-internal.c">
+      <Filter>Source files\Device-specific files\WPA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\src\crypto\aes-unwrap.c">
+      <Filter>Source files\Device-specific files\WPA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\src\crypto\aes-wrap.c">
+      <Filter>Source files\Device-specific files\WPA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\src\crypto\bignum_wpa.c">
+      <Filter>Source files\Device-specific files\WPA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\src\crypto\crypto_internal-cipher.c">
+      <Filter>Source files\Device-specific files\WPA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\src\crypto\crypto_internal-modexp.c">
+      <Filter>Source files\Device-specific files\WPA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\src\crypto\crypto_internal-rsa.c">
+      <Filter>Source files\Device-specific files\WPA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\src\crypto\crypto_internal.c">
+      <Filter>Source files\Device-specific files\WPA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\src\crypto\des-internal.c">
+      <Filter>Source files\Device-specific files\WPA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\src\crypto\dh_group5.c">
+      <Filter>Source files\Device-specific files\WPA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\src\crypto\dh_groups.c">
+      <Filter>Source files\Device-specific files\WPA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\src\crypto\md4-internal.c">
+      <Filter>Source files\Device-specific files\WPA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\src\crypto\md5-internal.c">
+      <Filter>Source files\Device-specific files\WPA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\src\crypto\md5_wpa.c">
+      <Filter>Source files\Device-specific files\WPA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\src\crypto\ms_funcs.c">
+      <Filter>Source files\Device-specific files\WPA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\src\crypto\rc4.c">
+      <Filter>Source files\Device-specific files\WPA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\src\crypto\sha1-internal.c">
+      <Filter>Source files\Device-specific files\WPA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\src\crypto\sha1-pbkdf2.c">
+      <Filter>Source files\Device-specific files\WPA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\src\crypto\sha1_wpa.c">
+      <Filter>Source files\Device-specific files\WPA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\src\crypto\sha256-internal.c">
+      <Filter>Source files\Device-specific files\WPA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\src\crypto\sha256_wpa.c">
+      <Filter>Source files\Device-specific files\WPA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\app_update\esp_ota_ops.c">
+      <Filter>Source files\Device-specific files\App Update Support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\driver\gpio.c">
+      <Filter>Source files\Device-specific files\Drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\driver\ledc.c">
+      <Filter>Source files\Device-specific files\Drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\driver\pcnt.c">
+      <Filter>Source files\Device-specific files\Drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\driver\periph_ctrl.c">
+      <Filter>Source files\Device-specific files\Drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\driver\rmt.c">
+      <Filter>Source files\Device-specific files\Drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\driver\rtc_module.c">
+      <Filter>Source files\Device-specific files\Drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\driver\sigmadelta.c">
+      <Filter>Source files\Device-specific files\Drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\driver\timer.c">
+      <Filter>Source files\Device-specific files\Drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\driver\uart.c">
+      <Filter>Source files\Device-specific files\Drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\ethernet\emac_dev.c">
+      <Filter>Source files\Device-specific files\Ethernet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\ethernet\emac_main.c">
+      <Filter>Source files\Device-specific files\Ethernet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\freertos\croutine.c">
+      <Filter>Source files\Device-specific files\FreeRTOS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\freertos\event_groups.c">
+      <Filter>Source files\Device-specific files\FreeRTOS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\freertos\FreeRTOS-openocd.c">
+      <Filter>Source files\Device-specific files\FreeRTOS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\freertos\heap_regions.c">
+      <Filter>Source files\Device-specific files\FreeRTOS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\freertos\heap_regions_debug.c">
+      <Filter>Source files\Device-specific files\FreeRTOS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\freertos\list.c">
+      <Filter>Source files\Device-specific files\FreeRTOS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\freertos\port.c">
+      <Filter>Source files\Device-specific files\FreeRTOS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\freertos\portasm.S">
+      <Filter>Source files\Device-specific files\FreeRTOS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\freertos\queue.c">
+      <Filter>Source files\Device-specific files\FreeRTOS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\freertos\ringbuf.c">
+      <Filter>Source files\Device-specific files\FreeRTOS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\freertos\tasks.c">
+      <Filter>Source files\Device-specific files\FreeRTOS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\freertos\timers.c">
+      <Filter>Source files\Device-specific files\FreeRTOS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\freertos\xtensa_context.S">
+      <Filter>Source files\Device-specific files\FreeRTOS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\freertos\xtensa_init.c">
+      <Filter>Source files\Device-specific files\FreeRTOS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\freertos\xtensa_intr.c">
+      <Filter>Source files\Device-specific files\FreeRTOS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\freertos\xtensa_intr_asm.S">
+      <Filter>Source files\Device-specific files\FreeRTOS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\freertos\xtensa_overlay_os_hook.c">
+      <Filter>Source files\Device-specific files\FreeRTOS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\freertos\xtensa_vectors.S">
+      <Filter>Source files\Device-specific files\FreeRTOS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\json\library\cJSON.c">
+      <Filter>Source files\Device-specific files\JSON</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\json\port\cJSON_Utils.c">
+      <Filter>Source files\Device-specific files\JSON</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\log\log.c">
+      <Filter>Source files\Device-specific files\Logging Support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\spi_flash\cache_utils.c">
+      <Filter>Source files\Device-specific files\SPI FLASH</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\spi_flash\flash_mmap.c">
+      <Filter>Source files\Device-specific files\SPI FLASH</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\spi_flash\flash_ops.c">
+      <Filter>Source files\Device-specific files\SPI FLASH</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\spi_flash\partition.c">
+      <Filter>Source files\Device-specific files\SPI FLASH</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\spi_flash\spi_flash_rom_patch.c">
+      <Filter>Source files\Device-specific files\SPI FLASH</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\tcpip_adapter\tcpip_adapter_lwip.c">
+      <Filter>Source files\Device-specific files\TCP/IP Adapter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\ulp\ulp.c">
+      <Filter>Source files\Device-specific files\ULP Support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\vfs\vfs.c">
+      <Filter>Source files\Device-specific files\VFS Support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\vfs\vfs_uart.c">
+      <Filter>Source files\Device-specific files\VFS Support</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="sdkconfig.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="user_config.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\phy.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\phy_init_data.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\rtc.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\spiram.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\esp_attr.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\esp_brownout.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\esp_coexist.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\esp_crosscore_int.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\esp_deepsleep.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\esp_deep_sleep.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\esp_err.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\esp_event.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\esp_event_loop.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\esp_flash_data_types.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\esp_freertos_hooks.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\esp_gdbstub.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\esp_heap_alloc_caps.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\esp_interface.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\esp_intr.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\esp_intr_alloc.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\esp_int_wdt.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\esp_ipc.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\esp_panic.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\esp_phy_init.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\esp_smartconfig.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\esp_ssc.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\esp_system.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\esp_task.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\esp_task_wdt.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\esp_types.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\esp_wifi.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\esp_wifi_internal.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\esp_wifi_types.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\esp_wpa2.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\esp_wps.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\heap_alloc_caps.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\hwcrypto\aes.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\hwcrypto\sha.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\rom\bigint.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\rom\cache.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\rom\crc.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\rom\efuse.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\rom\ets_sys.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\rom\gpio.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\rom\libc_stubs.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\rom\lldesc.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\rom\md5_hash.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\rom\miniz.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\rom\queue.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\rom\secure_boot.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\rom\spi_flash.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\rom\tbconsole.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\rom\tjpgd.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\rom\uart.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\soc\bb_reg.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\soc\boot_mode.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\soc\cpu.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\soc\dport_reg.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\soc\efuse_reg.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\soc\emac_ex_reg.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\soc\emac_reg_v2.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\soc\frc_timer_reg.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\soc\gpio_reg.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\soc\gpio_sd_reg.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\soc\gpio_sd_struct.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\soc\gpio_sig_map.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\soc\gpio_struct.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\soc\hwcrypto_reg.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\soc\i2c_reg.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\soc\i2c_struct.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\soc\i2s_reg.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\soc\i2s_struct.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\soc\io_mux_reg.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\soc\ledc_reg.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\soc\ledc_struct.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\soc\pcnt_reg.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\soc\pcnt_struct.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\soc\pid.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\soc\rmt_reg.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\soc\rmt_struct.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\soc\rtc_cntl_reg.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\soc\rtc_io_reg.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\soc\sens_reg.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\soc\soc.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\soc\spi_reg.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\soc\spi_struct.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\soc\timer_group_reg.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\soc\timer_group_struct.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\soc\uart_reg.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\soc\uart_struct.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\soc\uhci_reg.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\soc\uhci_struct.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\soc\wdev_reg.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\board.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\c6x-compat.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\cacheasm.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\cacheattrasm.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\core-macros.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\coreasm.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\corebits.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\debugfs.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\feedback.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\gdbio.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\hal.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\jtag-xtensa.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\lcd-splc780d-4bitmode-board.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\lcd-splc780d-4bitmode.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\lcd-splc780d.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\overlay.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\overlay_os_asm.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\sim.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\simboard.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\simcall-errno.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\simcall-fcntl.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\simcall.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\specreg.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\trax-api.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\trax-core-config.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\trax-proto.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\trax-util.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\trax.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\traxfile.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\traxreg.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\uart-16550-board.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\uart-16550.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\udma.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\xdm-regs.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\xmon.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\xmp-library.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\xos.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\xos_common.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\xos_cond.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\xos_errors.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\xos_event.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\xos_internal.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\xos_msgq.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\xos_mutex.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\xos_params.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\xos_regaccess.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\xos_semaphore.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\xos_stopwatch.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\xos_syslog.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\xos_thread.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\xos_timer.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\xos_types.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\xtav110.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\xtav200.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\xtav60.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\xtbsp.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\xtensa-libdb-macros.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\xtensa-versions.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\xtensa-xer.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\xtkc705.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\xtload-api.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\xtml605.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\xtruntime-core-state.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\xtruntime-frames.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\xtruntime.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\xtutil.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\xt_perfmon.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\xt_perf_consts.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\xt_profiling.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\xt_reftb.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\config\core-isa.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\config\core-matmap.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\config\core.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\config\defs.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\config\system.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\config\tie-asm.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\config\tie.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\tie\xt_booleans.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\tie\xt_coprocessors.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\tie\xt_core.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\tie\xt_debug.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\tie\xt_density.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\tie\xt_DFP_assist.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\tie\xt_exceptions.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\tie\xt_externalregisters.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\tie\xt_FP.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\tie\xt_integerdivide.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\tie\xt_interrupt.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\tie\xt_ioports.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\tie\xt_MAC16.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\tie\xt_misc.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\tie\xt_mmu.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\tie\xt_mul.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\tie\xt_MUL32.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\tie\xt_regwin.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\tie\xt_scmpr.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\tie\xt_sync.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\tie\xt_timer.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\tie\xt_trace.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\esp32\include\xtensa\xtav60\xtensa\lcd-splc780d-board.h">
+      <Filter>Header files\Device-specific files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\expat\include\expat\ascii.h">
+      <Filter>Header files\Device-specific files\Expat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\expat\include\expat\asciitab.h">
+      <Filter>Header files\Device-specific files\Expat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\expat\include\expat\expat.h">
+      <Filter>Header files\Device-specific files\Expat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\expat\include\expat\expat_config.h">
+      <Filter>Header files\Device-specific files\Expat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\expat\include\expat\expat_external.h">
+      <Filter>Header files\Device-specific files\Expat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\expat\include\expat\iasciitab.h">
+      <Filter>Header files\Device-specific files\Expat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\expat\include\expat\internal.h">
+      <Filter>Header files\Device-specific files\Expat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\expat\include\expat\latin1tab.h">
+      <Filter>Header files\Device-specific files\Expat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\expat\include\expat\nametab.h">
+      <Filter>Header files\Device-specific files\Expat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\expat\include\expat\utf8tab.h">
+      <Filter>Header files\Device-specific files\Expat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\expat\include\expat\xmlrole.h">
+      <Filter>Header files\Device-specific files\Expat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\expat\include\expat\xmltok.h">
+      <Filter>Header files\Device-specific files\Expat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\expat\include\expat\xmltok_impl.h">
+      <Filter>Header files\Device-specific files\Expat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\expat\port\include\chardata.h">
+      <Filter>Header files\Device-specific files\Expat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\expat\port\include\minicheck.h">
+      <Filter>Header files\Device-specific files\Expat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\nvs_flash\include\nvs.h">
+      <Filter>Header files\Device-specific files\NVS FLASH</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\nvs_flash\include\nvs_flash.h">
+      <Filter>Header files\Device-specific files\NVS FLASH</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\nvs_flash\src\intrusive_list.h">
+      <Filter>Header files\Device-specific files\NVS FLASH</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\nvs_flash\src\nvs_test_api.h">
+      <Filter>Header files\Device-specific files\NVS FLASH</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\include\lwip\apps\dhcpserver.h">
+      <Filter>Header files\Device-specific files\lwIP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\include\lwip\apps\sntp\sntp.h">
+      <Filter>Header files\Device-specific files\lwIP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\include\lwip\apps\sntp\sntp_opts.h">
+      <Filter>Header files\Device-specific files\lwIP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\include\lwip\lwip\api.h">
+      <Filter>Header files\Device-specific files\lwIP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\include\lwip\lwip\arch.h">
+      <Filter>Header files\Device-specific files\lwIP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\include\lwip\lwip\autoip.h">
+      <Filter>Header files\Device-specific files\lwIP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\include\lwip\lwip\debug.h">
+      <Filter>Header files\Device-specific files\lwIP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\include\lwip\lwip\def.h">
+      <Filter>Header files\Device-specific files\lwIP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\include\lwip\lwip\dhcp.h">
+      <Filter>Header files\Device-specific files\lwIP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\include\lwip\lwip\dhcp6.h">
+      <Filter>Header files\Device-specific files\lwIP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\include\lwip\lwip\dns.h">
+      <Filter>Header files\Device-specific files\lwIP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\include\lwip\lwip\err.h">
+      <Filter>Header files\Device-specific files\lwIP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\include\lwip\lwip\ethip6.h">
+      <Filter>Header files\Device-specific files\lwIP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\include\lwip\lwip\icmp.h">
+      <Filter>Header files\Device-specific files\lwIP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\include\lwip\lwip\icmp6.h">
+      <Filter>Header files\Device-specific files\lwIP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\include\lwip\lwip\igmp.h">
+      <Filter>Header files\Device-specific files\lwIP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\include\lwip\lwip\inet.h">
+      <Filter>Header files\Device-specific files\lwIP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\include\lwip\lwip\inet_chksum.h">
+      <Filter>Header files\Device-specific files\lwIP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\include\lwip\lwip\init.h">
+      <Filter>Header files\Device-specific files\lwIP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\include\lwip\lwip\ip.h">
+      <Filter>Header files\Device-specific files\lwIP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\include\lwip\lwip\ip4.h">
+      <Filter>Header files\Device-specific files\lwIP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\include\lwip\lwip\ip4_addr.h">
+      <Filter>Header files\Device-specific files\lwIP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\include\lwip\lwip\ip6.h">
+      <Filter>Header files\Device-specific files\lwIP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\include\lwip\lwip\ip6_addr.h">
+      <Filter>Header files\Device-specific files\lwIP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\include\lwip\lwip\ip6_frag.h">
+      <Filter>Header files\Device-specific files\lwIP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\include\lwip\lwip\ip_addr.h">
+      <Filter>Header files\Device-specific files\lwIP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\include\lwip\lwip\ip_frag.h">
+      <Filter>Header files\Device-specific files\lwIP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\include\lwip\lwip\lwip_debug.h">
+      <Filter>Header files\Device-specific files\lwIP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\include\lwip\lwip\mem.h">
+      <Filter>Header files\Device-specific files\lwIP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\include\lwip\lwip\memp.h">
+      <Filter>Header files\Device-specific files\lwIP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\include\lwip\lwip\mld6.h">
+      <Filter>Header files\Device-specific files\lwIP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\include\lwip\lwip\nd6.h">
+      <Filter>Header files\Device-specific files\lwIP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\include\lwip\lwip\netbuf.h">
+      <Filter>Header files\Device-specific files\lwIP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\include\lwip\lwip\netdb.h">
+      <Filter>Header files\Device-specific files\lwIP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\include\lwip\lwip\netif.h">
+      <Filter>Header files\Device-specific files\lwIP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\include\lwip\lwip\netifapi.h">
+      <Filter>Header files\Device-specific files\lwIP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\include\lwip\lwip\opt.h">
+      <Filter>Header files\Device-specific files\lwIP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\include\lwip\lwip\pbuf.h">
+      <Filter>Header files\Device-specific files\lwIP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\include\lwip\lwip\pppapi.h">
+      <Filter>Header files\Device-specific files\lwIP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\include\lwip\lwip\raw.h">
+      <Filter>Header files\Device-specific files\lwIP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\include\lwip\lwip\sio.h">
+      <Filter>Header files\Device-specific files\lwIP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\include\lwip\lwip\snmp.h">
+      <Filter>Header files\Device-specific files\lwIP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\include\lwip\lwip\sockets.h">
+      <Filter>Header files\Device-specific files\lwIP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\include\lwip\lwip\stats.h">
+      <Filter>Header files\Device-specific files\lwIP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\include\lwip\lwip\sys.h">
+      <Filter>Header files\Device-specific files\lwIP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\include\lwip\lwip\tcp.h">
+      <Filter>Header files\Device-specific files\lwIP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\include\lwip\lwip\tcpip.h">
+      <Filter>Header files\Device-specific files\lwIP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\include\lwip\lwip\timers.h">
+      <Filter>Header files\Device-specific files\lwIP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\include\lwip\lwip\udp.h">
+      <Filter>Header files\Device-specific files\lwIP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\include\lwip\lwip\priv\api_msg.h">
+      <Filter>Header files\Device-specific files\lwIP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\include\lwip\lwip\priv\memp_priv.h">
+      <Filter>Header files\Device-specific files\lwIP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\include\lwip\lwip\priv\memp_std.h">
+      <Filter>Header files\Device-specific files\lwIP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\include\lwip\lwip\priv\tcpip_priv.h">
+      <Filter>Header files\Device-specific files\lwIP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\include\lwip\lwip\priv\tcp_priv.h">
+      <Filter>Header files\Device-specific files\lwIP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\include\lwip\netif\etharp.h">
+      <Filter>Header files\Device-specific files\lwIP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\include\lwip\netif\ethernet.h">
+      <Filter>Header files\Device-specific files\lwIP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\include\lwip\netif\lowpan6.h">
+      <Filter>Header files\Device-specific files\lwIP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\include\lwip\netif\lowpan6_opts.h">
+      <Filter>Header files\Device-specific files\lwIP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\include\lwip\netif\slipif.h">
+      <Filter>Header files\Device-specific files\lwIP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\include\lwip\port\lwipopts.h">
+      <Filter>Header files\Device-specific files\lwIP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\include\lwip\port\arch\cc.h">
+      <Filter>Header files\Device-specific files\lwIP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\include\lwip\port\arch\perf.h">
+      <Filter>Header files\Device-specific files\lwIP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\include\lwip\port\arch\sys_arch.h">
+      <Filter>Header files\Device-specific files\lwIP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\include\lwip\port\netif\ethernetif.h">
+      <Filter>Header files\Device-specific files\lwIP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\include\lwip\port\netif\wlanif.h">
+      <Filter>Header files\Device-specific files\lwIP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\lwip\include\lwip\posix\sys\socket.h">
+      <Filter>Header files\Device-specific files\lwIP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\alloca.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\ar.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\argz.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\assert.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\complex.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\config.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\ctype.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\dirent.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\envlock.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\envz.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\errno.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\fastmath.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\fcntl.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\fenv.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\fnmatch.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\getopt.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\glob.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\grp.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\iconv.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\ieeefp.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\inttypes.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\langinfo.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\libgen.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\limits.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\locale.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\malloc.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\math.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\newlib.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\paths.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\pthread.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\pwd.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\reent.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\regdef.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\regex.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\sched.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\search.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\setjmp.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\signal.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\spawn.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\stdatomic.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\stdint.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\stdio.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\stdio_ext.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\stdlib.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\string.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\strings.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\tar.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\termios.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\tgmath.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\time.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\unctrl.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\unistd.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\utime.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\utmp.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\wchar.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\wctype.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\wordexp.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\_ansi.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\_syslist.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\machine\ansi.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\machine\endian.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\machine\param.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\machine\setjmp-dj.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\machine\types.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\machine\_default_types.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\machine\_types.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\sys\cdefs.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\sys\custom_file.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\sys\dir.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\sys\features.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\sys\file.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\sys\iconvnls.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\sys\lock.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\sys\queue.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\sys\resource.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\sys\stat.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\sys\syslimits.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\sys\timeb.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\sys\times.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\sys\wait.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\sys\_default_fcntl.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\sys\_intsup.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\include\xtensa\config\core-isa.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\newlib\platform_include\esp_newlib.h">
+      <Filter>Header files\Device-specific files\Newlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\include\mbedtls\aes.h">
+      <Filter>Header files\Device-specific files\mbed TLS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\include\mbedtls\aesni.h">
+      <Filter>Header files\Device-specific files\mbed TLS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\include\mbedtls\arc4.h">
+      <Filter>Header files\Device-specific files\mbed TLS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\include\mbedtls\asn1.h">
+      <Filter>Header files\Device-specific files\mbed TLS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\include\mbedtls\asn1write.h">
+      <Filter>Header files\Device-specific files\mbed TLS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\include\mbedtls\base64.h">
+      <Filter>Header files\Device-specific files\mbed TLS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\include\mbedtls\bignum.h">
+      <Filter>Header files\Device-specific files\mbed TLS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\include\mbedtls\blowfish.h">
+      <Filter>Header files\Device-specific files\mbed TLS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\include\mbedtls\bn_mul.h">
+      <Filter>Header files\Device-specific files\mbed TLS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\include\mbedtls\camellia.h">
+      <Filter>Header files\Device-specific files\mbed TLS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\include\mbedtls\ccm.h">
+      <Filter>Header files\Device-specific files\mbed TLS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\include\mbedtls\certs.h">
+      <Filter>Header files\Device-specific files\mbed TLS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\include\mbedtls\check_config.h">
+      <Filter>Header files\Device-specific files\mbed TLS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\include\mbedtls\cipher.h">
+      <Filter>Header files\Device-specific files\mbed TLS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\include\mbedtls\cipher_internal.h">
+      <Filter>Header files\Device-specific files\mbed TLS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\include\mbedtls\compat-1.3.h">
+      <Filter>Header files\Device-specific files\mbed TLS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\include\mbedtls\config.h">
+      <Filter>Header files\Device-specific files\mbed TLS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\include\mbedtls\ctr_drbg.h">
+      <Filter>Header files\Device-specific files\mbed TLS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\include\mbedtls\debug.h">
+      <Filter>Header files\Device-specific files\mbed TLS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\include\mbedtls\des.h">
+      <Filter>Header files\Device-specific files\mbed TLS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\include\mbedtls\dhm.h">
+      <Filter>Header files\Device-specific files\mbed TLS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\include\mbedtls\ecdh.h">
+      <Filter>Header files\Device-specific files\mbed TLS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\include\mbedtls\ecdsa.h">
+      <Filter>Header files\Device-specific files\mbed TLS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\include\mbedtls\ecjpake.h">
+      <Filter>Header files\Device-specific files\mbed TLS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\include\mbedtls\ecp.h">
+      <Filter>Header files\Device-specific files\mbed TLS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\include\mbedtls\entropy.h">
+      <Filter>Header files\Device-specific files\mbed TLS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\include\mbedtls\entropy_poll.h">
+      <Filter>Header files\Device-specific files\mbed TLS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\include\mbedtls\error.h">
+      <Filter>Header files\Device-specific files\mbed TLS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\include\mbedtls\gcm.h">
+      <Filter>Header files\Device-specific files\mbed TLS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\include\mbedtls\havege.h">
+      <Filter>Header files\Device-specific files\mbed TLS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\include\mbedtls\hmac_drbg.h">
+      <Filter>Header files\Device-specific files\mbed TLS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\include\mbedtls\md.h">
+      <Filter>Header files\Device-specific files\mbed TLS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\include\mbedtls\md2.h">
+      <Filter>Header files\Device-specific files\mbed TLS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\include\mbedtls\md4.h">
+      <Filter>Header files\Device-specific files\mbed TLS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\include\mbedtls\md5.h">
+      <Filter>Header files\Device-specific files\mbed TLS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\include\mbedtls\md_internal.h">
+      <Filter>Header files\Device-specific files\mbed TLS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\include\mbedtls\memory_buffer_alloc.h">
+      <Filter>Header files\Device-specific files\mbed TLS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\include\mbedtls\net.h">
+      <Filter>Header files\Device-specific files\mbed TLS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\include\mbedtls\oid.h">
+      <Filter>Header files\Device-specific files\mbed TLS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\include\mbedtls\padlock.h">
+      <Filter>Header files\Device-specific files\mbed TLS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\include\mbedtls\pem.h">
+      <Filter>Header files\Device-specific files\mbed TLS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\include\mbedtls\pk.h">
+      <Filter>Header files\Device-specific files\mbed TLS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\include\mbedtls\pkcs11.h">
+      <Filter>Header files\Device-specific files\mbed TLS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\include\mbedtls\pkcs12.h">
+      <Filter>Header files\Device-specific files\mbed TLS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\include\mbedtls\pkcs5.h">
+      <Filter>Header files\Device-specific files\mbed TLS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\include\mbedtls\pk_internal.h">
+      <Filter>Header files\Device-specific files\mbed TLS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\include\mbedtls\platform.h">
+      <Filter>Header files\Device-specific files\mbed TLS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\include\mbedtls\ripemd160.h">
+      <Filter>Header files\Device-specific files\mbed TLS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\include\mbedtls\rsa.h">
+      <Filter>Header files\Device-specific files\mbed TLS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\include\mbedtls\sha1.h">
+      <Filter>Header files\Device-specific files\mbed TLS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\include\mbedtls\sha256.h">
+      <Filter>Header files\Device-specific files\mbed TLS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\include\mbedtls\sha512.h">
+      <Filter>Header files\Device-specific files\mbed TLS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\include\mbedtls\ssl.h">
+      <Filter>Header files\Device-specific files\mbed TLS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\include\mbedtls\ssl_cache.h">
+      <Filter>Header files\Device-specific files\mbed TLS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\include\mbedtls\ssl_ciphersuites.h">
+      <Filter>Header files\Device-specific files\mbed TLS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\include\mbedtls\ssl_cookie.h">
+      <Filter>Header files\Device-specific files\mbed TLS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\include\mbedtls\ssl_internal.h">
+      <Filter>Header files\Device-specific files\mbed TLS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\include\mbedtls\ssl_ticket.h">
+      <Filter>Header files\Device-specific files\mbed TLS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\include\mbedtls\threading.h">
+      <Filter>Header files\Device-specific files\mbed TLS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\include\mbedtls\timing.h">
+      <Filter>Header files\Device-specific files\mbed TLS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\include\mbedtls\version.h">
+      <Filter>Header files\Device-specific files\mbed TLS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\include\mbedtls\x509.h">
+      <Filter>Header files\Device-specific files\mbed TLS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\include\mbedtls\x509_crl.h">
+      <Filter>Header files\Device-specific files\mbed TLS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\include\mbedtls\x509_crt.h">
+      <Filter>Header files\Device-specific files\mbed TLS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\include\mbedtls\x509_csr.h">
+      <Filter>Header files\Device-specific files\mbed TLS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\include\mbedtls\xtea.h">
+      <Filter>Header files\Device-specific files\mbed TLS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\port\include\aes_alt.h">
+      <Filter>Header files\Device-specific files\mbed TLS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\port\include\sha1_alt.h">
+      <Filter>Header files\Device-specific files\mbed TLS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\port\include\sha256_alt.h">
+      <Filter>Header files\Device-specific files\mbed TLS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\port\include\sha512_alt.h">
+      <Filter>Header files\Device-specific files\mbed TLS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\mbedtls\port\include\mbedtls\esp_config.h">
+      <Filter>Header files\Device-specific files\mbed TLS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\include\crypto\aes.h">
+      <Filter>Header files\Device-specific files\WPA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\include\crypto\aes_i.h">
+      <Filter>Header files\Device-specific files\WPA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\include\crypto\aes_wrap.h">
+      <Filter>Header files\Device-specific files\WPA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\include\crypto\base64.h">
+      <Filter>Header files\Device-specific files\WPA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\include\crypto\common.h">
+      <Filter>Header files\Device-specific files\WPA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\include\crypto\crypto.h">
+      <Filter>Header files\Device-specific files\WPA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\include\crypto\dh_group5.h">
+      <Filter>Header files\Device-specific files\WPA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\include\crypto\dh_groups.h">
+      <Filter>Header files\Device-specific files\WPA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\include\crypto\includes.h">
+      <Filter>Header files\Device-specific files\WPA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\include\crypto\md5.h">
+      <Filter>Header files\Device-specific files\WPA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\include\crypto\md5_i.h">
+      <Filter>Header files\Device-specific files\WPA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\include\crypto\ms_funcs.h">
+      <Filter>Header files\Device-specific files\WPA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\include\crypto\random.h">
+      <Filter>Header files\Device-specific files\WPA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\include\crypto\sha1.h">
+      <Filter>Header files\Device-specific files\WPA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\include\crypto\sha1_i.h">
+      <Filter>Header files\Device-specific files\WPA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\include\crypto\sha256.h">
+      <Filter>Header files\Device-specific files\WPA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\include\wpa\ap_config.h">
+      <Filter>Header files\Device-specific files\WPA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\include\wpa\defs.h">
+      <Filter>Header files\Device-specific files\WPA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\include\wpa\eapol_common.h">
+      <Filter>Header files\Device-specific files\WPA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\include\wpa\hostapd.h">
+      <Filter>Header files\Device-specific files\WPA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\include\wpa\ieee80211_crypto.h">
+      <Filter>Header files\Device-specific files\WPA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\include\wpa\ieee802_11_defs.h">
+      <Filter>Header files\Device-specific files\WPA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\include\wpa\ieee802_1x.h">
+      <Filter>Header files\Device-specific files\WPA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\include\wpa\list.h">
+      <Filter>Header files\Device-specific files\WPA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\include\wpa\state_machine.h">
+      <Filter>Header files\Device-specific files\WPA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\include\wpa\sta_info.h">
+      <Filter>Header files\Device-specific files\WPA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\include\wpa\wpa.h">
+      <Filter>Header files\Device-specific files\WPA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\include\wpa\wpabuf.h">
+      <Filter>Header files\Device-specific files\WPA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\include\wpa\wpas_glue.h">
+      <Filter>Header files\Device-specific files\WPA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\include\wpa\wpa_auth.h">
+      <Filter>Header files\Device-specific files\WPA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\include\wpa\wpa_auth_i.h">
+      <Filter>Header files\Device-specific files\WPA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\include\wpa\wpa_auth_ie.h">
+      <Filter>Header files\Device-specific files\WPA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\include\wpa\wpa_common.h">
+      <Filter>Header files\Device-specific files\WPA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\include\wpa\wpa_debug.h">
+      <Filter>Header files\Device-specific files\WPA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\include\wpa\wpa_i.h">
+      <Filter>Header files\Device-specific files\WPA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\include\wpa\wpa_ie.h">
+      <Filter>Header files\Device-specific files\WPA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\include\wpa2\eap_peer\eap.h">
+      <Filter>Header files\Device-specific files\WPA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\include\wpa2\eap_peer\eap_common.h">
+      <Filter>Header files\Device-specific files\WPA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\include\wpa2\eap_peer\eap_config.h">
+      <Filter>Header files\Device-specific files\WPA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\include\wpa2\eap_peer\eap_defs.h">
+      <Filter>Header files\Device-specific files\WPA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\include\wpa2\eap_peer\eap_i.h">
+      <Filter>Header files\Device-specific files\WPA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\include\wpa2\eap_peer\eap_tls.h">
+      <Filter>Header files\Device-specific files\WPA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\include\wpa2\eap_peer\eap_tls_common.h">
+      <Filter>Header files\Device-specific files\WPA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\include\wpa2\tls\asn1.h">
+      <Filter>Header files\Device-specific files\WPA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\include\wpa2\tls\bignum.h">
+      <Filter>Header files\Device-specific files\WPA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\include\wpa2\tls\libtommath.h">
+      <Filter>Header files\Device-specific files\WPA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\include\wpa2\tls\pkcs1.h">
+      <Filter>Header files\Device-specific files\WPA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\include\wpa2\tls\pkcs5.h">
+      <Filter>Header files\Device-specific files\WPA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\include\wpa2\tls\pkcs8.h">
+      <Filter>Header files\Device-specific files\WPA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\include\wpa2\tls\rsa.h">
+      <Filter>Header files\Device-specific files\WPA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\include\wpa2\tls\tls.h">
+      <Filter>Header files\Device-specific files\WPA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\include\wpa2\tls\tlsv1_client.h">
+      <Filter>Header files\Device-specific files\WPA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\include\wpa2\tls\tlsv1_client_i.h">
+      <Filter>Header files\Device-specific files\WPA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\include\wpa2\tls\tlsv1_common.h">
+      <Filter>Header files\Device-specific files\WPA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\include\wpa2\tls\tlsv1_cred.h">
+      <Filter>Header files\Device-specific files\WPA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\include\wpa2\tls\tlsv1_record.h">
+      <Filter>Header files\Device-specific files\WPA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\include\wpa2\tls\tlsv1_server.h">
+      <Filter>Header files\Device-specific files\WPA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\include\wpa2\tls\tlsv1_server_i.h">
+      <Filter>Header files\Device-specific files\WPA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\include\wpa2\tls\x509v3.h">
+      <Filter>Header files\Device-specific files\WPA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\include\wpa2\utils\ext_password.h">
+      <Filter>Header files\Device-specific files\WPA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\include\wpa2\utils\ext_password_i.h">
+      <Filter>Header files\Device-specific files\WPA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\port\include\byteswap.h">
+      <Filter>Header files\Device-specific files\WPA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\port\include\endian.h">
+      <Filter>Header files\Device-specific files\WPA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\wpa_supplicant\port\include\os.h">
+      <Filter>Header files\Device-specific files\WPA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\app_update\include\esp_ota_ops.h">
+      <Filter>Header files\Device-specific files\App Update Support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\driver\include\driver\adc.h">
+      <Filter>Header files\Device-specific files\Drivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\driver\include\driver\dac.h">
+      <Filter>Header files\Device-specific files\Drivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\driver\include\driver\gpio.h">
+      <Filter>Header files\Device-specific files\Drivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\driver\include\driver\ledc.h">
+      <Filter>Header files\Device-specific files\Drivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\driver\include\driver\pcnt.h">
+      <Filter>Header files\Device-specific files\Drivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\driver\include\driver\periph_ctrl.h">
+      <Filter>Header files\Device-specific files\Drivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\driver\include\driver\rmt.h">
+      <Filter>Header files\Device-specific files\Drivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\driver\include\driver\rtc_io.h">
+      <Filter>Header files\Device-specific files\Drivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\driver\include\driver\sigmadelta.h">
+      <Filter>Header files\Device-specific files\Drivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\driver\include\driver\timer.h">
+      <Filter>Header files\Device-specific files\Drivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\driver\include\driver\touch_pad.h">
+      <Filter>Header files\Device-specific files\Drivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\driver\include\driver\uart.h">
+      <Filter>Header files\Device-specific files\Drivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\ethernet\emac_common.h">
+      <Filter>Header files\Device-specific files\Ethernet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\ethernet\emac_desc.h">
+      <Filter>Header files\Device-specific files\Ethernet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\ethernet\emac_dev.h">
+      <Filter>Header files\Device-specific files\Ethernet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\ethernet\include\esp_eth.h">
+      <Filter>Header files\Device-specific files\Ethernet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\freertos\include\freertos\croutine.h">
+      <Filter>Header files\Device-specific files\FreeRTOS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\freertos\include\freertos\deprecated_definitions.h">
+      <Filter>Header files\Device-specific files\FreeRTOS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\freertos\include\freertos\event_groups.h">
+      <Filter>Header files\Device-specific files\FreeRTOS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\freertos\include\freertos\FreeRTOS.h">
+      <Filter>Header files\Device-specific files\FreeRTOS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\freertos\include\freertos\FreeRTOSConfig.h">
+      <Filter>Header files\Device-specific files\FreeRTOS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\freertos\include\freertos\heap_regions.h">
+      <Filter>Header files\Device-specific files\FreeRTOS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\freertos\include\freertos\heap_regions_debug.h">
+      <Filter>Header files\Device-specific files\FreeRTOS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\freertos\include\freertos\list.h">
+      <Filter>Header files\Device-specific files\FreeRTOS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\freertos\include\freertos\mpu_wrappers.h">
+      <Filter>Header files\Device-specific files\FreeRTOS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\freertos\include\freertos\portable.h">
+      <Filter>Header files\Device-specific files\FreeRTOS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\freertos\include\freertos\portbenchmark.h">
+      <Filter>Header files\Device-specific files\FreeRTOS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\freertos\include\freertos\portmacro.h">
+      <Filter>Header files\Device-specific files\FreeRTOS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\freertos\include\freertos\porttrace.h">
+      <Filter>Header files\Device-specific files\FreeRTOS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\freertos\include\freertos\projdefs.h">
+      <Filter>Header files\Device-specific files\FreeRTOS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\freertos\include\freertos\queue.h">
+      <Filter>Header files\Device-specific files\FreeRTOS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\freertos\include\freertos\ringbuf.h">
+      <Filter>Header files\Device-specific files\FreeRTOS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\freertos\include\freertos\semphr.h">
+      <Filter>Header files\Device-specific files\FreeRTOS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\freertos\include\freertos\StackMacros.h">
+      <Filter>Header files\Device-specific files\FreeRTOS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\freertos\include\freertos\task.h">
+      <Filter>Header files\Device-specific files\FreeRTOS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\freertos\include\freertos\timers.h">
+      <Filter>Header files\Device-specific files\FreeRTOS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\freertos\include\freertos\xtensa_api.h">
+      <Filter>Header files\Device-specific files\FreeRTOS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\freertos\include\freertos\xtensa_config.h">
+      <Filter>Header files\Device-specific files\FreeRTOS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\freertos\include\freertos\xtensa_context.h">
+      <Filter>Header files\Device-specific files\FreeRTOS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\freertos\include\freertos\xtensa_rtos.h">
+      <Filter>Header files\Device-specific files\FreeRTOS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\freertos\include\freertos\xtensa_timer.h">
+      <Filter>Header files\Device-specific files\FreeRTOS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\json\include\cJSON.h">
+      <Filter>Header files\Device-specific files\JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\json\port\include\cJSON_Utils.h">
+      <Filter>Header files\Device-specific files\JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\log\include\esp_log.h">
+      <Filter>Header files\Device-specific files\Logging Support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\spi_flash\cache_utils.h">
+      <Filter>Header files\Device-specific files\SPI FLASH</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\spi_flash\include\esp_partition.h">
+      <Filter>Header files\Device-specific files\SPI FLASH</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\spi_flash\include\esp_spi_flash.h">
+      <Filter>Header files\Device-specific files\SPI FLASH</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\tcpip_adapter\include\tcpip_adapter.h">
+      <Filter>Header files\Device-specific files\TCP/IP Adapter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\ulp\include\esp32\ulp.h">
+      <Filter>Header files\Device-specific files\ULP Support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\vfs\include\esp_vfs.h">
+      <Filter>Header files\Device-specific files\VFS Support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SysGCC\esp32\esp32-bsp\esp-idf\components\vfs\include\esp_vfs_dev.h">
+      <Filter>Header files\Device-specific files\VFS Support</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ESP32-JTAG-VisualGDB-Debug.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="ESP32-JTAG-VisualGDB-Release.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="esp32.props">
+      <Filter>Source files\Device-specific files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="esp32.xml">
+      <Filter>VisualGDB settings</Filter>
+    </Xml>
+  </ItemGroup>
+</Project>
